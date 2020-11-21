@@ -1,0 +1,64 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="wellness-sf.Wellness-SF.controller.AgendarCita"><App>
+		<pages><Page xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" id="pageId_copy" title="Agendar Cita" floatingFooter="true">
+			    <content>
+			        <SearchField xmlns="sap.m" placeholder="Search for ..." id="field1_copy"/>
+			        <Table noDataText="Drop column list items here and columns in the area above" id="table2_copy">
+			            <items>
+			                <ColumnListItem type="Active" id="item34_copy3">
+			                    <cells>
+			                        <Text text="Médico " id="text14_copy3"/>
+			                        <Text text="General " id="text15_copy3"/>
+			                        <Text text="Día / Hora " id="text16_copy3"/>
+			                        </cells>
+			                    
+			                </ColumnListItem>
+			                <ColumnListItem xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" type="Active" id="item34_copy4">
+			                    <cells>
+			                        <Text text="Psicólogo" id="text14_copy4"/>
+			                        <Text text="Especialidad " id="text15_copy4"/>
+			                        <Text text="Día / Hora " id="text16_copy4"/>
+			                        </cells>
+			                    
+			                </ColumnListItem>
+			                <ColumnListItem xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" type="Active" id="item34_copy5">
+			                    <cells>
+			                        <Text text="Nutriólogo" id="text14_copy5"/>
+			                        <Text xmlns="sap.m" text="General" id="text4"/>
+			                        <Text xmlns="sap.m" text="Dia / Hora" id="text5"/>
+			                        <Text id="text15_copy5" visible="false"/>
+			                        <Text text="Día / Hora " id="text16_copy5"/>
+			                        <Text xmlns="sap.m" text="Text" id="text3"/>
+			                        </cells>
+			                    
+			                </ColumnListItem>
+			                </items>
+			            <columns>
+			                <Column id="Columna1_copy">
+			                    <header>
+			                        <Label text="Servicio " id="TipoCita_copy"/>
+			                        
+			                    </header>
+			                    
+			                </Column>
+			                <Column id="Columna2_copy">
+			                    <header>
+			                        <Label text="Especialidad" id="Tipo_copy"/>
+			                        
+			                    </header>
+			                    
+			                </Column>
+			                <Column id="Columna3_copy">
+			                    <header>
+			                        <Label text="Fecha " id="label9_copy"/>
+			                        
+			                    </header>
+			                    
+			                </Column>
+			                </columns>
+			            </Table>
+			        </content>
+			    
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

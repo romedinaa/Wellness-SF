@@ -1,0 +1,17 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="wellness-sf.Wellness-SF.controller.BeneficiosSeguros">
+	<App>
+		<pages>
+			<Page title="Beneficios y Seguros">
+			<content>
+			    <SearchField xmlns="sap.m" placeholder="Search for ..." id="field0"/>
+			    <List noDataText="Drop list items here" id="list0">
+			        <items>
+			            <StandardListItem type="Navigation" title="Canjea tu puntos" description="Obten mas informacion de como puedes cambiar puntos por recompensas" icon="sap-icon://monitor-payments" id="item3"/>
+			        </items>
+			    </List>
+			    <StandardListItem type="Navigation" title="Testimonios de Colaboradores" description="Conoce como wellness " icon="sap-icon://company-view" id="item4"/>
+			</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

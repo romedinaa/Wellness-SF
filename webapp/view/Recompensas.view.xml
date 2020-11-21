@@ -1,0 +1,49 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="wellness-sf.Wellness-SF.controller.Recompensas">
+	<App>
+		<pages>
+			<Page title="Recompensas">
+				<content>
+				    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="button8" width="14%" icon="sap-icon://map-3"/>
+				    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="button3" width="14%" icon="sap-icon://date-time"/>
+				    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="button2_copy" icon="sap-icon://favorite" width="14%"/>
+				    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="button7" width="14%" icon="sap-icon://checklist"/>
+				    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="button4" width="14%" icon="sap-icon://bar-chart"/>
+				    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="button3_1604967327516" icon="sap-icon://calendar" width="14%"/>
+				    <Button xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" id="button5" width="14%" icon="sap-icon://activate"/>
+				    <CustomListItem type="Navigation" id="item0">
+				        <content>
+				            <Text text="Ver y seleccionar recompensa" id="text0" width="100%"/>
+				        </content>
+				    </CustomListItem>
+				    <ObjectHeader xmlns="sap.m" title="&quot;Recompensa &quot;" number="***" id="header0_1605063966813">
+				        <statuses>
+				            <ObjectStatus text="" state="Success" id="status3"/>
+				            
+				        </statuses>
+				        <attributes>
+				            <ObjectAttribute text="" id="attribute3"/>
+				            
+				        </attributes>
+				        </ObjectHeader>
+				    <ObjectHeader xmlns="sap.m" title="Puntos" number="100" id="header0">
+				        <statuses>
+				            <ObjectStatus text="" state="Success" id="status0"/>
+				            
+				        </statuses>
+				        <attributes>
+				            <ObjectAttribute text="" id="attribute0"/>
+				            
+				        </attributes>
+				        </ObjectHeader>
+				    <Button xmlns="sap.m" text="CONFIRMAR" id="button0_1604971082432" width="100%"/>
+				</content>
+			<headerContent>
+			    <Button xmlns="sap.m" id="button0_1604969030634" icon="sap-icon://search"/>
+			    <Button xmlns="sap.m" id="button2" icon="sap-icon://activities"/>
+			    <Button xmlns="sap.m" id="button1" activeIcon="sap-icon://notification" icon="sap-icon://notification"/>
+			    <Button xmlns="sap.m" id="button0" icon="sap-icon://account"/>
+			</headerContent>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

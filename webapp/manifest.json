@@ -1,0 +1,134 @@
+{
+	"_version": "1.12.0",
+	"sap.app": {
+		"id": "wellness-sf.Wellness-SF",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		},
+		"crossNavigation": {
+			"inbounds": {
+				"intent2": {
+					"signature": {
+						"parameters": {},
+						"additionalParameters": "allowed"
+					},
+					"semanticObject": "data",
+					"action": "display",
+					"title": "Actividades",
+					"subTitle": "",
+					"icon": "sap-icon://activities",
+					"info": ""
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"flexEnabled": false,
+		"rootView": {
+			"viewName": "wellness-sf.Wellness-SF.view.View1",
+			"type": "XML",
+			"async": true,
+			"id": "View1"
+		},
+		"dependencies": {
+			"minUI5Version": "1.65.6",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "wellness-sf.Wellness-SF.i18n.i18n"
+				}
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "wellness-sf.Wellness-SF.view",
+				"controlAggregation": "pages",
+				"controlId": "app",
+				"clearControlAggregation": false
+			},
+			"routes": [
+				{
+					"name": "RouteView1",
+					"pattern": "RouteView1",
+					"target": [
+						"TargetView1"
+					]
+				}
+			],
+			"targets": {
+				"TargetView1": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewId": "View1",
+					"viewName": "View1"
+				},
+				"AgendarCita": {
+					"viewType": "XML",
+					"viewName": "AgendarCita"
+				},
+				"Actividades": {
+					"viewType": "XML",
+					"viewName": "Actividades"
+				},
+				"Recompensas": {
+					"viewType": "XML",
+					"viewName": "Recompensas"
+				},
+				"Desempeno": {
+					"viewType": "XML",
+					"viewName": "Desempeno"
+				},
+				"BeneficiosSeguros": {
+					"viewType": "XML",
+					"viewName": "BeneficiosSeguros"
+				}
+			}
+		}
+	}
+}
